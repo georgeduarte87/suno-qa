@@ -1,0 +1,15 @@
+name: Newman Run
+
+on:
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  newman:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: georgeduarte87/suno-qa@main
+        with:
+          collection: TesteAPI.json
