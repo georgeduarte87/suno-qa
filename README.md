@@ -51,5 +51,6 @@ Vamos considerar e avaliar todas etapas.
 #### Metodologia: 
 Para acessar a documentação da API utilizada como base, clique [aqui](https://developers.themoviedb.org/3/getting-started/introduction).
 
+...
 
 https://api.stoplight.io/v1/versions/9WaNJfGpnnQ76opqe/export/oas.json
