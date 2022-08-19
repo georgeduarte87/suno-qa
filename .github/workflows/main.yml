@@ -28,5 +28,5 @@ jobs:
           
       - name: Run POSTMAN collection Critical
         run: |
-          newman run TesteAPICriticos.json --delay-request 100
+          newman run TesteAPICriticos.json --delay-request 300
 
