@@ -7297,7 +7297,7 @@
 																	"    pm.response.to.have.status(201);\r",
 																	"});\r",
 																	"\r",
-																	"pm.test(\"status_message is Invalid\", function () {\r",
+																	"pm.test.skip(\"status_message is Invalid\", function () {\r",
 																	"    pm.expect(pm.response.json().success).to.true;\r",
 																	"    pm.expect(pm.response.json().status_code).to.eql(12);\r",
 																	"    pm.expect(pm.response.json().status_message).to.eql(\"The item/record was updated successfully.\");\r",
