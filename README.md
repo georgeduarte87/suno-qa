@@ -42,8 +42,11 @@ Você deve criar uma suite de testes (automatizada ou não) com a [API](https://
 >   - 1:00 Subi o Relatório de testes e a coleção de testes exploratórios da API para o reposítório, organizei as informações e o processo utilizado no desenvolvimento no reposítório e configurei o pipeline do repositório no Github Actions para executar os testes criados utilizando o Newman a cada atualização do repositório.
 > - 18/08:
 >   - 1:00 Detalhei o processo utilizado até aqui, descrevento as etapas e planejei a organização e os próximos passos, priorizando cenários mais críticos para a realização de testes mais específicos.
->   - 2:00 Trabalhei na automação dos cenários escolhidos.
+>   - 3:00 Trabalhei na automação dos cenários escolhidos.
 >   - 1:00 Finalizei e revisei os cenários, subi as alterações para o repositório, revisei os detalhes da entrega do repositório e escrevi o email de entrega do desafio.
+>
+> Para executar os testes, basta importar as duas coleções `TesteAPI.json` e `TesteAPICriticos.json` 
+> Também é possível executar as coleções utiizando newmanjs, para isso será necessário instalar NodeJs e o pacote do Newman mencionado acima e executar o comando `newman run .\TesteAPICriticos.json --delay-request 100` e `newman run .\TesteAPI.json --delay-request 100`.
 > #
 
 

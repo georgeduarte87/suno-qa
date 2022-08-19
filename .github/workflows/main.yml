@@ -20,13 +20,12 @@ jobs:
       - name: Install newman
         run: |
           npm install -g newman
-
-      # Run the POSTMAN collection
-      - name: Run POSTMAN collection
-        run: |
-          newman run TesteAPI.json
           
       - name: Run POSTMAN collection Critical
         run: |
           newman run TesteAPICriticos.json --delay-request 300
+          
+      - name: Run POSTMAN collection
+        run: |
+          newman run TesteAPI.json
 
